@@ -1,1 +1,1 @@
-Puede que el error señalado por parte bonus es que es llamada 2 veces  el setEducation con parametro String
+Hay un error en el sentido de que Adress pide una persona y Person pide una direccion creandose una necesidad circular!
