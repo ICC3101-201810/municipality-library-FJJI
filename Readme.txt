@@ -1,0 +1,1 @@
+Puede que el error señalado por parte bonus es que es llamada 2 veces  el setEducation con parametro String
