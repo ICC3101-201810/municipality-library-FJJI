@@ -11,8 +11,7 @@ namespace _22_Mayo
     {
         static void Main(string[] args)
         {
-            Assembly archivoAssembly = Assembly.LoadFile(@"C:\Users\Francisco\Desktop\Proyectos POO\22_Mayo\22_Mayo\ClassLibrary2.dll");
-            
+            Assembly archivoAssembly = Assembly.LoadFile(@"C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_mayo\ClassLibrary2.dll");
             foreach (Type type in archivoAssembly.GetTypes())
             {
                 if (type.IsClass) Console.WriteLine("class");
@@ -20,29 +19,25 @@ namespace _22_Mayo
                 else Console.WriteLine("otro tipo");
                 Console.WriteLine(type.Name);
                 MethodInfo[] properties = type.GetMethods();
-                //Console.WriteLine("(");
-                //Console.Write(type.Attributes);
-                //Console.WriteLine(")");
                 Console.WriteLine("metodos: ");
-                //foreach (Attribute atr in )
                 foreach (MethodInfo prop in properties)
                 {
-                    Console.WriteLine("\t" + prop.Name);
-                    //Console.WriteLine("\t\t" + );
+                    //Console.WriteLine("\t" + prop.Name);
                     ParameterInfo[] parameters = prop.GetParameters();
+                    
 
                     //Console.WriteLine("\t\t" + prop.ReturnParameter);
-                    if (parameters != null)
+                    if (parameters.Length > 0)
                     {
                         foreach (ParameterInfo para in parameters)
                         {
                             //Console.WriteLine("\t\t" + para.Attributes);
-                            Console.WriteLine("+" + prop.Name + "(" + para.Attributes + ") : " + prop.ReturnParameter);
+                            Console.WriteLine("+" + prop.Name + "(" + para + ") : " + prop.ReturnParameter);
                         }
                     }
                     else
                     {
-                        prop.
+                        Console.WriteLine("+" + prop.Name + "( ) : " + prop.ReturnParameter);
                     }
                   //  Console.WriteLine("+" + prop.Name+ "("+)
                 }

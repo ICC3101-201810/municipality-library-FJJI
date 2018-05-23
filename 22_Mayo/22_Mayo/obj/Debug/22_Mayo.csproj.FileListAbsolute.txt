@@ -5,3 +5,10 @@ C:\Users\Francisco\Desktop\Proyectos POO\22_Mayo\22_Mayo\obj\Debug\22_Mayo.cspro
 C:\Users\Francisco\Desktop\Proyectos POO\22_Mayo\22_Mayo\obj\Debug\22_Mayo.csproj.CoreCompileInputs.cache
 C:\Users\Francisco\Desktop\Proyectos POO\22_Mayo\22_Mayo\obj\Debug\22_Mayo.exe
 C:\Users\Francisco\Desktop\Proyectos POO\22_Mayo\22_Mayo\obj\Debug\22_Mayo.pdb
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\obj\Debug\22_Mayo.csprojAssemblyReference.cache
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\obj\Debug\22_Mayo.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\obj\Debug\22_Mayo.exe
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\obj\Debug\22_Mayo.pdb
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\bin\Debug\22_Mayo.exe.config
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\bin\Debug\22_Mayo.exe
+C:\Users\Francisco\Desktop\Proyectos POO\municipality-library-FJJI\22_Mayo\22_Mayo\bin\Debug\22_Mayo.pdb
